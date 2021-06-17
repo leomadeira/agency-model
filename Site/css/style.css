@@ -349,6 +349,7 @@ header{
     width: 50%;
     max-width: 100%;
     margin: auto;
+    padding-top: 70px;
 }
 .img-beneficios img{
 
@@ -364,19 +365,19 @@ header{
     font-size: 64px;
     padding-top: 150px;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .text-beneficios img{
-    width: 56px;
-    height: 54px;
     display: inline-block;
+    vertical-align: middle;
+    width: 69px;
 }
 
 .text-beneficios p{
     display: inline-block;
-    width: 453px;
-    height: 43px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .txt-benef{
@@ -385,6 +386,13 @@ header{
     display: block;
     margin: auto;
     padding-bottom: 30px;
+
+
+}
+.txt-benef span{
+    margin-top: 5px;
+    display: inline-block;
+    width: calc(100% - 70px);
 }
 .txt-benef p{
     max-width: 100%;
