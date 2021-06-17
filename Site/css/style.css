@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.center{/*Menu*/
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+section.main{
+    background-image: url(/AgenciaBold/img/HERO\ BACKGROUND.svg);
+    min-height: 1280px; /*Altura da imagem background*/
+    background-position: center;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+
+/*
+header{
+
+    position: absolute;
+    z-index: 30;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1490px;
+    height: 100px;
+    padding-top: 20px;
+    top: 50px;
+    left: 269px;
+    overflow: hidden;
+   
+}
+*/
+
+.menu{
+    display: flex; 
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.logo{max-width: 30%;}
+.itens-menu{width: 100%; text-align: right;}
+
+.itens-menu a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+}
+/**/
+.menu a:hover{
+    border-bottom: 2px solid #FFDD33;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    border-width: 4px;
+  
+   
+}
+
+.menu a:nth-child(4){
+    
+     background-color: #0F3FD3;
+     padding: 18px;
+     border-radius: 10px;
+     border:1px solid #0F3FD3;
+
+
+}
+
+.menu a:nth-child(4):hover{
+    
+    background-color: #0d3ac0;
+
+}
+
+.mockup{
+    max-width: 100%; /*observação, analisar isso aqui que não esta certo*/
+    margin: auto;
+}
+.mockup h1{
+  
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 22px;
+
+}
+
+.mockup p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.box{
+    text-align: center;
+    top: 400px;
+    margin: auto;
+    max-width: 100%;
+ }
+ .box img{
+     max-width: 100%;
+ }
+
+/*********************************************/
+
+
+.clientes{
+    padding-bottom: 100px;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.clientes img{
+
+    max-width: 100%;
+
+}
+
+.center-cliente{
+        display: flex;
+        width: 1300px;
+        max-width: 100%;
+        padding: 0 2%;
+        margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+
+    .img1{
+        display: none;
+    }
+    .img5{
+        display: none;
+    }
+}
+@media (max-width: 700px){
+    .mockup h1{
+        font-size: 40px;
+        color: white;
+     
+    }
+}
+@media (max-width: 400px){
+    .mockup h1{
+        font-size: 30px;
+        color: white;
+    }
+    .mockup p{
+        font-size: 15px;
+    }
+}
+
+
+
+/**********************************************/
+
+.pq-nos{
+    margin-top: 150px;
+}
+.text-pqnos{
+  
+    text-align: center;
+    max-width: 2000;
+    width: 100%;
+   
+    
+}
+.text-pqnos h1{
+    color: #040404;
+    font-size: 64px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+.text-pqnos p{
+    color: #7E92AC;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+.all{
+    margin-top: 80px;
+
+    text-align: center;
+    max-width: 100%;
+    
+}
+
+.box-pqnos{
+    box-shadow: 0px 20px 40px #24277225;
+    border-radius: 20px;
+    width: 490px;
+    max-width: 100% !important;
+    height: 400px;
+    display: inline-block;
+    margin-bottom: 100px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.box-pqnos h1{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+.box-pqnos p{
+    margin-top: 27px;
+    color: #7E92AC;
+    width: 300px;
+    max-width: 100%;
+    height: 99px;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+
+/*RESPONSIVO PQ NOS*/
+@media (max-width: 900px) {
+
+    .text-pqnos h1{
+    font-size: 54px;
+    }
+}
+@media (max-width: 700px){
+    .text-pqnos h1{
+        font-size: 44px;
+    }
+    .text-pqnos p{
+        font-size: 15px;
+
+    }
+}
+@media (max-width: 400px){
+    .text-pqnos h1{
+        font-size: 34px;
+    }
+    .text-pqnos p{
+        font-size: 15px;
+
+    }
+}
+
+
+/************************CONTATO************************************/
+
+.contato{
+    background-image: url(/AgenciaBold/img/BANNER\ IMG.svg);
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    height: 432px;
+    display: block;
+}
+
+.contato h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 89px;
+    max-width: 100%;
+}
+
+.contato p{
+    padding-top: 36px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 100%;
+
+}
+.button-all{
+    
+    text-align: center;
+}
+.contato button{
+    background-color: #FFDD33;
+    cursor: pointer;
+    width: 332px;
+    max-width: 100%;
+    height: 68px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+  
+}
+
+.contato button:hover{
+    box-shadow:5px 5px 15px #18181bf6;
+}
+
+.contato button > h2{
+    color: #0F3FD3;
+    font-size: 23px;
+}
+
+/*RESPONSIVO CONTATO*/
+
+
+@media (max-width: 900px) {
+    .contato h1{
+        font-size: 54px;
+    }
+    
+   
+}
+@media (max-width: 700px){
+    .contato h1{
+        font-size: 40px;
+    }
+    .contato p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 488px){
+    .contato h1{
+        font-size: 30px;
+    }
+}
+
+
+/****************************************/
+/*.beneficios{
+    
+}
+*/
+.center-beneficios{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        flex-direction: row-reverse;
+}
+
+
+.img-beneficios{
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+}
+.img-beneficios img{
+
+    max-width: 100%;
+}
+
+.text-beneficios{
+    width: 50%;
+    max-width: 100%;
+}
+
+.beneficios h1{
+    font-size: 64px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.text-beneficios img{
+    width: 56px;
+    height: 54px;
+    display: inline-block;
+}
+
+.text-beneficios p{
+    display: inline-block;
+    width: 453px;
+    height: 43px;
+    text-align: center;
+}
+
+.txt-benef{
+    width: 550px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.txt-benef p{
+    max-width: 100%;
+}
+
+.beneficios button{
+    width: 332px;
+    max-width: 100%;
+    height: 68px;
+    background: #255AFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    }
+
+.beneficios button:hover{
+
+    background-color: #0F3FD3;
+    max-width: 100%;
+
+}
+
+/*RESPONSIVO BENEFICIOS*/
+
+@media (max-width: 1030px) {
+
+    .img-beneficios{
+
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+
+    }
+    .text-beneficios{
+
+        width: 100%;
+
+    }
+    .beneficios h1{
+
+        font-size: 40px;
+        padding-top: 100px;
+        text-align: center;
+        max-width: 100%;
+
+    }
+
+}
+
+
+
+
+        
+
+/*************************DEPOIMENTOS*******************************/
+.center-depo{/*Menu*/
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1700px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+.depoimentos{
+
+  margin-top: 100px;
+  background-color: #FBFCFE; ;    /*    */
+  width: 100%;
+  max-width: 100%;
+
+}
+
+.all-box-depoimentos{
+
+    text-align: center;
+    max-width: 100%;
+}
+.box-depoimentos{
+
+    width: 536px;
+    height: 523px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+
+}
+.box-depoimentos img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 39px;
+    padding-bottom: 37px;
+    max-width: 100%;
+    
+}
+.box-depoimentos h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 12px;
+    max-width: 100%;
+}
+.box-depoimentos h3{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #7E92AC;
+    max-width: 100%;
+}
+.box-depoimentos p{
+    color: #7E92AC;
+    width: 448px;
+    height: 123px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+.onclick-box{
+    width: 16px;
+    height: 16px;
+    background-color: #D2D8EB;
+    border-radius: 100px;
+    display: inline-block;
+}
+/***************************************************/
+.center-contato2{/*Menu*/
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+.text-contato2 h1{
+    text-align: center;
+    font-size: 64px;
+}
+.contato2{
+    padding-top: 300px;
+    background-color: rgba(0, 0, 0, 0.328);
+    padding-bottom: 40px;
+}
+
+
+.text-contato2 h1{
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+
+.form-contato2{
+    width: 812px;
+    max-width: 100%;
+    background-color: red;
+    padding-bottom: 30px;
+}
+.form-contato2 input{
+    width: 812px;
+    height: 75px;
+    border-radius: 10px;
+
+    max-width: 100%;
+    height: 72;
+    display: block;
+    margin: 0 auto;
+    background: #FCFDFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C3CCE8;
+}
+.form-contato2 textarea{
+    width: 812px;
+    max-width: 100%;
+    height: 279px;
+}
+.form-contato2 button{
+    width: 812px;
+    height: 68px;
+    max-width: 100%;
+}
+
+/***************************************************/
+footer{
+    background-color: #255AFF;
+}
