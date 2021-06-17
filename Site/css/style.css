@@ -511,13 +511,9 @@ header{
     text-align: center;
     max-width: 100%;
 }
-
-.onclick-box{
-    width: 16px;
-    height: 16px;
-    background-color: #D2D8EB;
-    border-radius: 100px;
-    display: inline-block;
+/*RESPONSIVO DEPOIMENTOS E JQUERY*/
+@media(max-width: 768px){
+    
 }
 /********************CONTATO 2*******************************/
 
