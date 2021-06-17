@@ -519,8 +519,8 @@ header{
 }
 
 .contato2{
-    padding-top: 300px;
-    padding-bottom: 40px;
+    padding-top: 200px;
+    padding-bottom: 100px;
 }
 
 
@@ -554,16 +554,39 @@ header{
     border: 1px solid #C3CCE8;
     display: block;
     margin-top: 20px;
+    padding-left: 25px;
+    color: #7E92AC;
+    font-size: 20px;
+}
+.form-contato2 input[type=text]:hover{
+    border: #8b93aa solid 1px;
+}
+.form-contato2 input[type=email]:hover{
+    border: #8b93aa solid 1px;
+}
+.form-contato2 textarea:hover{
+    border: #8b93aa solid 1px;
 }
 .form-contato2 textarea{
     width: 812px;
+    min-width: 100%;
     max-width: 100%;
     height: 279px;
+    min-height: 279px;
+    max-height: 279px;
     border-radius: 10px;
     display: block;
     margin-top: 20px;
     border: 1px solid #C3CCE8;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    color: #7E92AC;
+    font-size: 20px;
+
 }
+
+
 .form-contato2 button{
     width: 812px;
     height: 68px;
@@ -577,10 +600,29 @@ header{
     cursor: pointer;
     color: white;
     font-size: 20px;
+    border: 0px;
 }
-.form-contato2 button
+
+.form-contato2 button:hover{
+    background-color: #0F3FD3;
+}
+
 
 /***************************************************/
 footer{
+    height: 100px;
     background-color: #255AFF;
+}
+
+.center-footer{
+    display: block;
+    max-width: 100%;
+    padding: 0 2%;
+}
+footer h1{
+    padding-top: 35px;
+    max-width: 100%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
 }
