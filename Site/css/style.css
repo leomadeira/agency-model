@@ -453,8 +453,7 @@ header{
 
 /*************************DEPOIMENTOS*******************************/
 .center-depo{/*Menu*/
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     max-width: 1700px;
     padding: 0 2%;
     margin: 0 auto;
@@ -468,8 +467,7 @@ header{
 
 }
 
-.all-box-depoimentos{
-
+.container-slider{
     text-align: center;
     max-width: 100%;
 }
@@ -511,9 +509,53 @@ header{
     text-align: center;
     max-width: 100%;
 }
+/*AQUI ESTA O BOTAO DO JQUERY*/
+.slick-slide{
+    margin-left: 27px;
+}
+.slick-list{
+    margin-left: -27px;
+}
+/****SLICK SLIDER****/
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #b7bccc;
+	border-width: 0;
+	background: #b7bccc;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #255AFF;
+	color: #255AFF;
+}
+
+.slick-slide:focus { outline: none; }
+
 /*RESPONSIVO DEPOIMENTOS E JQUERY*/
 @media(max-width: 768px){
-    
+
 }
 /********************CONTATO 2*******************************/
 
