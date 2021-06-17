@@ -110,7 +110,27 @@ header{
  .box img{
      max-width: 100%;
  }
+ .itens-menu-mobile img{
+    display: none;
+    cursor: pointer;
+    text-align: right;
+ }
 
+ /*RESPONSIVO MENU*/
+ @media(max-width:768px){
+    .itens-menu-mobile img{
+        display: inline-block;
+        background-color: red;
+        width: 100%;
+     }
+
+     .logo{
+         background-color: black;
+     }
+     .itens-menu{
+         display: none;
+     }
+ }
 /*********************************************/
 
 
@@ -458,7 +478,7 @@ header{
     max-width: 100%;
     padding: 0 2%;
     margin: 0 auto;
-    background-color: red;
+
 }
 .depoimentos{
 
@@ -472,6 +492,8 @@ header{
 .container-slider{
     text-align: center;
     max-width: 100%;
+    overflow:hidden;
+    padding:40px 0;
 }
 .box-depoimentos{
 
