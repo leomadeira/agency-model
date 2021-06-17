@@ -14,7 +14,7 @@
 }
 
 section.main{
-    background-image: url(/AgenciaBold/img/HERO\ BACKGROUND.svg);
+    background-image: url(/Site/img/HERO\ BACKGROUND.svg);
     min-height: 1280px; /*Altura da imagem background*/
     background-position: center;
     background-size: cover;
@@ -256,7 +256,7 @@ header{
 /************************CONTATO************************************/
 
 .contato{
-    background-image: url(/AgenciaBold/img/BANNER\ IMG.svg);
+    background-image: url(/Site/img/BANNER\ IMG.svg);
     background-position: center;
     background-size: cover;
     max-width: 100%;
@@ -511,21 +511,15 @@ header{
     border-radius: 100px;
     display: inline-block;
 }
-/***************************************************/
-.center-contato2{/*Menu*/
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 900px;
-    padding: 0 2%;
-    margin: 0 auto;
-}
+/********************CONTATO 2*******************************/
+
 .text-contato2 h1{
     text-align: center;
     font-size: 64px;
 }
+
 .contato2{
     padding-top: 300px;
-    background-color: rgba(0, 0, 0, 0.328);
     padding-bottom: 40px;
 }
 
@@ -536,34 +530,55 @@ header{
     padding-bottom: 50px;
 }
 
+.center-contato2{/*Menu*/
+  
+    max-width: 900px;
+    padding: 0 4%;
+    margin: auto;
+}
+
 .form-contato2{
-    width: 812px;
+   
     max-width: 100%;
-    background-color: red;
-    padding-bottom: 30px;
+
+    
 }
 .form-contato2 input{
     width: 812px;
     height: 75px;
     border-radius: 10px;
-
+    margin: 10px;
     max-width: 100%;
-    height: 72;
-    display: block;
     margin: 0 auto;
     background: #FCFDFF 0% 0% no-repeat padding-box;
     border: 1px solid #C3CCE8;
+    display: block;
+    margin-top: 20px;
 }
 .form-contato2 textarea{
     width: 812px;
     max-width: 100%;
     height: 279px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;
+    border: 1px solid #C3CCE8;
 }
 .form-contato2 button{
     width: 812px;
     height: 68px;
+    display: none;
     max-width: 100%;
+    padding-top: 10px;
+    display: block;
+    margin-top: 20px;
+    background: #255AFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
 }
+.form-contato2 button
 
 /***************************************************/
 footer{
