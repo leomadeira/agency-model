@@ -454,9 +454,11 @@ header{
 /*************************DEPOIMENTOS*******************************/
 .center-depo{/*Menu*/
     display: block;
-    max-width: 1700px;
+    width: 1700px;
+    max-width: 100%;
     padding: 0 2%;
     margin: 0 auto;
+    background-color: red;
 }
 .depoimentos{
 
@@ -510,12 +512,7 @@ header{
     max-width: 100%;
 }
 /*AQUI ESTA O BOTAO DO JQUERY*/
-.slick-slide{
-    margin-left: 27px;
-}
-.slick-list{
-    margin-left: -27px;
-}
+
 /****SLICK SLIDER****/
 
 .slick-dotted ul{
