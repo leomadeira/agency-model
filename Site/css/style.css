@@ -139,7 +139,6 @@ header{
     padding-bottom: 100px;
     width: 100%;
     max-width: 100%;
-
 }
 
 .clientes img{
@@ -154,6 +153,7 @@ header{
         max-width: 100%;
         padding: 0 2%;
         margin: 0 auto;
+        overflow: hidden;
 }
 
 @media (max-width: 900px) {
@@ -214,6 +214,7 @@ header{
 
     text-align: center;
     max-width: 100%;
+    overflow: hidden;
     
 }
 
@@ -549,6 +550,7 @@ header{
 .slick-dotted li{
 	display: inline-block;
 	margin: 0 7px;
+    padding-bottom: 50px;
 }
 
 .slick-dotted button:focus{
