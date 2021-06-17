@@ -110,7 +110,7 @@ header{
  .box img{
      max-width: 100%;
  }
- .itens-menu-mobile img{
+ .itens-menu-mobile i{
     display: none;
     cursor: pointer;
     text-align: right;
@@ -120,6 +120,7 @@ header{
  @media(max-width:768px){
     .itens-menu-mobile img{
         display: inline-block;
+        color: blue;
         background-color: red;
         width: 100%;
      }
