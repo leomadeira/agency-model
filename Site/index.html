@@ -20,10 +20,30 @@
                         <a href="">Depoimentos</a>
                         <a href="">Entre em contato</a>
                 </div>
-                <div class="itens-menu-mobile">
-                    <i class="fa fa-bars"></i>
+         
+                    <div class="itens-menu-mobile" onclick="abrir()">
+                    <img style="cursor: pointer;"src="/Site/img/MENU MOBILE.svg" alt="" >
                 </div>
-            </div><!--Menu-->
+                </div><!--Menu-->
+                <div id="myNav" class="all-menu-mobile-efeito">
+                    <a href="javascript:void(0)" class="closebtn" onclick="fechar()">&times;</a>
+                    <div class="itens-menu-mobile-efeito">
+                      <a href="#">Início</a>
+                      <a href="#">Por que nós?</a>
+                      <a href="#">Depoimentos</a>
+                      <a href="#">Entre em contato</a>
+                    </div>
+                  </div>
+            <script>
+                function abrir() {
+                    document.getElementById("myNav").style.height = "100%";
+                    }
+
+                function fechar() {
+                    document.getElementById("myNav").style.height = "0%";
+                    }
+            </script>
+            
             <div class="mockup">
                 <h1>Promova <b>Experiência</b> aos seus clientes</h1>
                 <p>E veja resultados expressivos dia após dia</p>
@@ -141,48 +161,7 @@
     </section>
         <script src="/Site/jQuery/jquery.js"></script>
         <script src="/Site/jQuery/slick.min.js"></script>
-        <script>
-                $('.container-slider').slick({ // Inicializando o container-slider nessa classe
-                dots: true, // se quer ou nao pontos/ se sim(true) senao(false)
-                arrows:false, // flechas no caso nao
-                speed:1000, //velocidade do movimento do box
-                slidesToShow: 3, // aparecer 3 box por slider
-                slidesToScroll: 3,
-                autoplay: true, // apertar sozinho no movimento
-                autoplaySpeed: 3000,
-                pauseOnHover:false,
-                responsive: [
-                            {
-                                breakpoint: 768,
-                                    settings: {slidesToShow: 1,slidesToScroll: 1}
-                            },
-                            {
-                                breakpoint: 1000,settings: {slidesToShow: 2,slidesToScroll: 1}
-                            
-                            }],
-                });
-
-               
-                $('.all').slick({ // Inicializando o container-slider nessa classe
-                dots: true, // se quer ou nao pontos/ se sim(true) senao(false)
-                arrows:false, // flechas no caso nao
-                speed:1000, //velocidade do movimento do box
-                slidesToShow: 3, // aparecer 3 box por slider
-                autoplay: true, // apertar sozinho no movimento
-                autoplaySpeed: 3000,
-                pauseOnHover:false,
-                responsive: [
-                            {
-                                breakpoint: 768,
-                                    settings: {slidesToShow: 1,slidesToScroll: 1}
-                            },{
-                              breakpoint: 1036,
-                              settings: {slidesToShow: 2,slidesToScroll: 1}
-
-                              }],
-                });
-               
-        </script>
+        <script src="/Site/js//jQuery.js"></script>
     <section class="contato2">
         
             <div class="text-contato2">
