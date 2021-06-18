@@ -15,7 +15,7 @@
 
 section.main{
     background-image: url(/Site/img/HERO\ BACKGROUND.svg);
-    min-height: 1280px; /*Altura da imagem background*/
+    min-height: 1100px; /*Altura da imagem background*/
     background-position: center;
     background-size: cover;
     background-origin: content-box;
