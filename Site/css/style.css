@@ -21,24 +21,6 @@ section.main{
     background-origin: content-box;
 }
 
-
-/*
-header{
-
-    position: absolute;
-    z-index: 30;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1490px;
-    height: 100px;
-    padding-top: 20px;
-    top: 50px;
-    left: 269px;
-    overflow: hidden;
-   
-}
-*/
-
 .menu{
     display: flex; 
     width: 100%;
@@ -110,27 +92,122 @@ header{
  .box img{
      max-width: 100%;
  }
- .itens-menu-mobile i{
+ .itens-menu-mobile img{
     display: none;
     cursor: pointer;
     text-align: right;
  }
+ .menu-mobile-efeito{
+     display: block;
+ }
+
+ /*MENU-MOBILE*/
+ .all-menu-mobile-efeito {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    background-color: #0d3ac0f1;
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .itens-menu-mobile-efeito {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .all-menu-mobile-efeito a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 36px;
+    color:  white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .itens-menu-mobile-efeito a:hover {
+    font-size: 50px;
+  }
+  
+  .all-menu-mobile-efeito .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+ 
+  /*fim menu-mobile*/
 
  /*RESPONSIVO MENU*/
- @media(max-width:768px){
+ @media(max-width:1000px){
     .itens-menu-mobile img{
         display: inline-block;
-        color: blue;
-        background-color: red;
-        width: 100%;
+        width: 55px;
+        text-align: right;
+
+     }
+     .itens-menu-mobile{
+         display: block;
+         text-align: right ;
+        width: 900px;
+        padding: 0 3%;
+        margin-top: 10px
      }
 
      .logo{
-         background-color: black;
+         padding: 10px;
      }
      .itens-menu{
          display: none;
      }
+      .menu-mobile {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .itens-menu {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .menu-mobile a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .menu-mobile a:hover, .menu-mobile a:focus {
+    color: #f1f1f1;
+  }
+  
+  .menu-mobile .x {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
  }
 /*********************************************/
 
@@ -154,6 +231,17 @@ header{
         padding: 0 2%;
         margin: 0 auto;
         overflow: hidden;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        max-width: 1200px;
+        overflow: hidden;
+    
+}
+
+.box-cliente{
+    display: inline-block;
+    width: 100%;
 }
 
 @media (max-width: 900px) {
@@ -210,12 +298,12 @@ header{
 }
 
 .all{
-    margin-top: 80px;
-
+    margin: auto;
     text-align: center;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1200px;
     overflow: hidden;
-    
+
 }
 
 .box-pqnos{
@@ -228,6 +316,7 @@ header{
     margin-bottom: 100px;
     text-align: center;
     vertical-align: bottom;
+    margin-left: -1px;
 }
 
 .box-pqnos h1{
@@ -432,6 +521,7 @@ header{
     cursor: pointer;
     margin: 0 auto;
     display: block;
+    border: 0px;
     }
 
 .beneficios button:hover{
@@ -688,9 +778,9 @@ footer{
     padding: 0 2%;
 }
 footer h1{
-    padding-top: 35px;
+    padding-top: 40px;
     max-width: 100%;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 }
