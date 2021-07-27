@@ -1,4 +1,5 @@
 $('.container-slider').slick({ // Inicializando o container-slider nessa classe
+    
     dots: true, // se quer ou nao pontos/ se sim(true) senao(false)
     arrows:false, // flechas no caso nao
     speed:1000, //velocidade do movimento do box
@@ -18,8 +19,8 @@ $('.container-slider').slick({ // Inicializando o container-slider nessa classe
                 }],
     });
 
-   
-    $('.all').slick({ // Inicializando o container-slider nessa classe
+   //slider box-inf
+$('.all').slick({ // Inicializando o container-slider nessa classe
     dots: true, // se quer ou nao pontos/ se sim(true) senao(false)
     arrows:false, // flechas no caso nao
     speed:1000, //velocidade do movimento do box
